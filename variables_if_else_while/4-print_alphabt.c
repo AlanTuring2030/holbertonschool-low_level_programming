@@ -10,12 +10,10 @@
 
 int main(void)
 {
-char alfabeto, e, q;
-e = 'e';
-q = 'q';
+char alfabeto;
 for (alfabeto = 'a'; alfabeto, <= 'z'; alfabeto++)
 {
-if (alfabeto, != e && alfabeto, != q)
+if (alfabeto != 'e' && alfabeto, != 'q')
 putchar(alfabeto);
 }
 putchar('\n');
