@@ -1,21 +1,19 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 /**
  * main - characters upper and lower case
  *
- * Return: zero
- */
-
+ * Return: 0
+*/
 int main(void)
 {
-char alfabeto;
-for (alfabeto = 'a'; alfabeto, <= 'z'; alfabeto++)
+char abcdario;
+for (abcdario = 'a'; abcdario <= 'z'; abcdario++)
 {
-if (alfabeto != 'e' && alfabeto, != 'q')
-putchar(alfabeto);
+if (abcdario != 'e' && abcdario != 'q')
+putchar(abcdario);
 }
 putchar('\n');
-return (0);
+return (0);
 }
