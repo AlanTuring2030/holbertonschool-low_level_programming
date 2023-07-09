@@ -10,11 +10,14 @@
  * Description: This structure represents a dog with its name,
  * age and owner's name
  */
+
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
+};
+
 typedef struct dog dog_t;
+
 #endif
