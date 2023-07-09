@@ -11,7 +11,8 @@
  * If NULL is passed, it is treated as an empty string
  *
  * The returned pointer points to a newly allocated space in memory that
- * contains the contents of s1, followed by the contents of s2               * and terminated by a null character
+ * contains the contents of s1, followed by
+ * the contents of s2 and terminated by a null character
  *
  * The function returns NULL on failure
  *
