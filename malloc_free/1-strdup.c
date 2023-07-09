@@ -5,9 +5,11 @@
  * _strdup - Creates an in-memory copy of a string
  * @str: Character string to be duplicated
  *
- * Description: This function returns a pointer to a new string that is a    * copy of the string 'str'. is a copy of the string 'str'
+ * Description: This function returns a pointer to a new string
+ * that is a copy of the string 'str'
  *
- * Memory for the new string is obtained with malloc and can be freed with   * free
+ * Memory for the new string is obtained with malloc and can be
+ * freed with free
  *
  * Return: Returns NULL if 'str' is NULL or if not enough memory available
  */
